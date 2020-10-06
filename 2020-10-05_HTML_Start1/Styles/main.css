@@ -1,0 +1,30 @@
+b {
+    color: blueviolet; 
+ }
+ span {
+
+    font-style: italic;
+ }
+ /*div {
+    /*font-size: larger;
+    padding: 20px 10px 20px 10px;
+    border: 10px black solid;
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+
+ }*/
+ .div1 {
+    background-color: darkcyan;
+    width: 200px;
+    height: auto;
+    padding: 50px 40px 20px 30px;
+ }
+ .div2 {
+    background-color: salmon;
+    width: auto;
+    height: 200px;
+    margin: 20px 30px 50px 40px;
+    
+ }
+ 
