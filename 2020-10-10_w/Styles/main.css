@@ -1,8 +1,14 @@
-.main {
-    margin: 50px auto;
 
-    width: 400px;
-    height: 300px;
+.main {
     
-    background: linear-gradient(to top, yellow 50%,blue 50%);
+    margin-bottom: -1px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+}
+.main:nth-child(1n){
+    background: linear-gradient(to right, black 0%, black 12.5%, white 12.5%, white 25%, black 25%, black 37.5%, white 37.5%, white 50%,black 50%, black 62.5%, white 62.5%, white 75%,black 75%, black 87.5%, white 87.5%, white 100%);
+}
+.main:nth-child(2n){
+    background: linear-gradient(to right, white 0%, white 12.5%, black 12.5%, black 25%, white 25%, white 37.5%, black 37.5%, black 50%,white 50%, white 62.5%, black 62.5%, black 75%,white 75%, white 87.5%, black 87.5%, black 100%);
 }
