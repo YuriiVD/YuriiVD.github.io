@@ -1,0 +1,22 @@
+.test {
+    width: 120px;
+    height: 45px;
+    
+    background: linear-gradient(Darkgreen, GreenYellow);
+
+    border: 1px solid darkblue;
+    border-radius: 50%;
+     
+    box-shadow: 3px 3px 5px orange;
+    font-weight: bold;
+}
+
+
+.test:first-child{
+    color: red;
+}
+
+.test:last-child{
+
+    color: blue;
+}
