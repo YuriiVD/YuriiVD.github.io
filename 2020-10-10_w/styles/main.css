@@ -11,6 +11,6 @@ button {
 button:last-child {
     background-color: red;
 }
-button:first-child:hover  {
+button:focus-within  {
     opacity: 0%;
 }
