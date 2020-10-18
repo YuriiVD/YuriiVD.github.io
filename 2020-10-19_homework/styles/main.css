@@ -1,6 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/30b799bb1600d6af1733979282276c8c?family=Houschka+Pro+Bold);
-@import url(//db.onlinewebfonts.com/c/225646b777438f81ec8400ff378afe2d?family=Houschka+Pro+Medium);
-
 body {
     background-color: #266b97;
 }
@@ -159,7 +156,7 @@ body {
 }
 .circle_numbers1,  .circle_numbers2, .circle_numbers3{
     font-size: 24px;
-    font-family: "Houschka Pro";
+    font-family: "Houschka Pro Medium";
     color: rgb(38, 107, 151);
     line-height: 0.667;
 }
