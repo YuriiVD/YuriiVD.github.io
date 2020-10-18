@@ -1,29 +1,14 @@
-
-div {
-    width: 150px;
-    padding: 30px 0;
-    border: 3px solid black;
-    text-align: center;
+.main_menu div {
+    border: 3px solid red;
+    height: 100px;
+    width: 200px;
+    margin-bottom: -3px;
 }
 .menu_items {
-    position: relative;
-    margin-top: 1px;
+   position: relative;
 }
+
 .menu_drop {
-    display: none;
     position: absolute;
-    left: 154px;
-    top: 0;
-    border: 0;
-    padding:0;
-}
-.menu_drop_links {
-    background-color: wheat;
-    margin-top: -3px;
-}
-.menu_items:hover {
-    background-color: wheat;
-}
-.menu_items:hover > .menu_drop {
-    display: block;
+    left: 100%;
 }

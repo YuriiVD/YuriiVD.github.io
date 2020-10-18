@@ -1,0 +1,201 @@
+@import url(//db.onlinewebfonts.com/c/30b799bb1600d6af1733979282276c8c?family=Houschka+Pro+Bold);
+@import url(//db.onlinewebfonts.com/c/225646b777438f81ec8400ff378afe2d?family=Houschka+Pro+Medium);
+
+body {
+    background-color: #266b97;
+}
+.main {
+    background-color: #b9d6ef;
+    height: 464px;
+    position: relative;
+}
+.clouds {
+    position: relative;
+    width: 0px;
+    height: 113px;
+    margin: 0 auto;
+}
+.clouds > div {
+    position: absolute;
+}
+.cloud1 {
+    left: -359px;
+}
+.cloud2 {
+    right: -396px;
+}
+.comingsoon {
+    position: relative;
+    width: 600px;
+    height: 73px;
+    margin: 0 auto;
+}
+.comingsoon > div {
+    position: absolute;
+    left: 52px;
+    top: 17px;
+    font-family: "Houschka Pro Bold";
+    font-size: 72px;
+    color: #fefefe;
+    line-height: 0.222;
+    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.17);
+}
+.subscribe {
+    position: relative;
+    width: 330px;
+    height: 32px;
+    margin: 0 auto;
+}
+.subscribe > div {
+    position: absolute;
+    left: 22px;
+    top: -2px;
+    font-family: "Houschka Pro Medium";
+    color: rgb(38, 107, 151);
+    font-size: 14px;
+    line-height: 1.143;
+}
+.form_input {
+    position: relative;
+    width: 340px;
+    height: 246px;
+    margin: 0 auto;
+}
+.inputfield {
+    position: absolute;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
+    border-radius: 4px;
+    width: 237px;
+    height: 37px;
+}
+.inputfield > div {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(128, 128, 128);
+    line-height: 2.083;
+}
+.button {
+    position: absolute;
+    right: 0px;
+    background: linear-gradient(#fbc742, #f8a426);
+    border-radius: 3px;
+    width: 90px;
+    height: 37px;
+} 
+.button > div {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 14px;
+    font-family: "Houschka Pro Bold";
+    color: white;
+    line-height: 1.786;
+    text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
+}
+.ship {
+    position: relative;
+    width: 0;
+    margin: 0 auto;
+}
+@keyframes upDown {
+    to { transform: translatey(7px);}
+}
+.ship > div {
+    position: absolute;
+    top: -25px;
+    left: -189px;
+    animation: upDown 2s alternate infinite ease-in-out;
+}
+.ice {
+    position: relative; 
+    width: 0;
+    margin: 0 auto;
+}
+.ice > div {
+    position: absolute; 
+    top: -198px;
+    left: -164px;
+}
+.blue_line {
+    position: relative;
+    height: 4px;
+    background-color: #ddecfa;
+    margin: 0 auto;
+}
+.dark_blue_line {
+    position: relative;
+    height: 9px;
+    background-color: #327dad;
+    margin: 0 auto;
+}
+.timer {
+    position: relative;
+    top: 53px;
+    width: 0;
+    margin: 0 auto;
+}
+.tmr1, .tmr2, .tmr3 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(185, 214, 239);
+}
+.tmr1 {
+    position: absolute;
+    left: -146px;
+}
+.tmr2 {
+    position: absolute;
+    left: -33px;
+}
+.tmr3 {
+    position: absolute;
+    left: 76px;
+}
+.circle_numbers1,  .circle_numbers2, .circle_numbers3{
+    font-size: 24px;
+    font-family: "Houschka Pro";
+    color: rgb(38, 107, 151);
+    line-height: 0.667;
+}
+.circle_numbers1 {
+    position: absolute;
+    top: 28px;
+    left: 13px;
+}
+.circle_numbers2 {
+    position: absolute;
+    top: 28px;
+    left: 21px;
+}
+.circle_numbers3 {
+    position: absolute;
+    top: 28px;
+    left: 20px;
+}
+.dhm1, .dhm2, .dhm3 {
+    font-size: 24px;
+    font-family: "Houschka Pro Bold";
+    color: rgb(243, 243, 243);
+    line-height: 0.667;
+}
+.dhm1 {
+    position: absolute;
+    top: 81px;
+    left: 4px;
+}
+.dhm2 {
+    position: absolute;
+    top: 81px;
+    left: -8px;
+}
+.dhm3 {
+    position: absolute;
+    top: 81px;
+    left: 5px;
+}
