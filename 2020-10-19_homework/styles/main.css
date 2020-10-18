@@ -1,3 +1,6 @@
+@keyframes shipUpDown {
+    to { transform: translatey(7px);}
+}
 body {
     background-color: #266b97;
 }
@@ -99,14 +102,12 @@ body {
     width: 0;
     margin: 0 auto;
 }
-@keyframes upDown {
-    to { transform: translatey(7px);}
-}
+
 .ship > div {
     position: absolute;
     top: -25px;
     left: -189px;
-    animation: upDown 2s alternate infinite ease-in-out;
+    animation: shipUpDown 2s alternate infinite ease-in-out;
 }
 .ice {
     position: relative; 
